@@ -1,13 +1,12 @@
 /* style.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background: url('manali.jpg') no-repeat center center fixed;
-    /* background-size: cover; */
     color: black;
     font-size: large;
 
@@ -19,11 +18,12 @@ body {
 
 .timer {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .time-unit {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .flip-card {
@@ -32,6 +32,7 @@ body {
     height: 100px;
     perspective: 1000px;
     margin-bottom: 10px;
+    
 }
 
 .flip-card .top,
@@ -58,4 +59,7 @@ body {
     bottom: 0;
     transform-origin: top;
     transform: rotateX(180deg);
+}
+p{
+    font-size: 2rem;
 }
